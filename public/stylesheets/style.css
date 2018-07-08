@@ -1,8 +1,54 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* view styles */
 
 a {
   color: #00B7FF;
+}
+
+a.home {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60pt;
+  color: #EEEEEE;
+  text-align: right;
+  margin: 0px;
+}
+
+h2 {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #999999;
+  margin: 5px;
+}
+
+p {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px 20px;
+}
+
+table {
+  margin: 20px;
+}
+
+table tr th {
+  background-color: #999999;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+table tr td {
+  background-color: #EEEEEE;
+  color: #666666;
+  padding: 5px 10px;
+}
+
+.error {
+  color: red;
 }
