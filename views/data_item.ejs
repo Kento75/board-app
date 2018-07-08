@@ -1,0 +1,13 @@
+<% if(val != null) { %>
+  <tr>
+    <th style="width: 100px">
+      <a class="home" href="/home/<%= val.attributes.user_id %>/1">
+        <%= val.relations.user.attributes.name %></a>
+    </th>
+    <% var d = new Date(val.attributes.create_at);
+       var create_date = d.getFullYear() + '-' + (d.getFullMonth() + 1) + '-' + d.getDate()
+                         + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
+    %>
+    <td style="width: 150px"><%= create_date %></td>
+  </tr>
+<% } %>
